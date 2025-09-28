@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@theme{
+    --font-nosifer: 'Nosifer', 'cursive';
+    --font-poppins: 'Poppins', 'sans-serif';
+    --font-nunito: 'Nunito', 'sans-serif';
+    --font-roboto: 'Roboto', 'sans-serif';
+    --color-brand1: #333333;
+    --color-brand2: #192c52de;
+    --color-brand3: #000000;
+    --color-brand4: #ff4301;
+    --color-brand5: #ff6934;
+    --color-brand6: #e63c01;
+    --color-brand7: #e30b18e5;
+    --color-brand8: #ff561a;
+    --color-brand9: #e30b18;
+    --color-brand10: #192c52;
+}
