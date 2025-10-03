@@ -129,7 +129,7 @@
   }
   img, svg, video, canvas, audio, iframe, embed, object {
     display: block;
-    /* vertical-align: middle; */
+    vertical-align: middle;
   }
   img, video {
     max-width: 100%;
@@ -396,6 +396,9 @@
   .h-17\.5 {
     height: calc(var(--spacing) * 17.5);
   }
+  .h-32 {
+    height: calc(var(--spacing) * 32);
+  }
   .h-37 {
     height: calc(var(--spacing) * 37);
   }
@@ -476,6 +479,9 @@
   }
   .w-22 {
     width: calc(var(--spacing) * 22);
+  }
+  .w-32 {
+    width: calc(var(--spacing) * 32);
   }
   .w-43 {
     width: calc(var(--spacing) * 43);
@@ -641,6 +647,9 @@
   }
   .gap-y-3 {
     row-gap: calc(var(--spacing) * 3);
+  }
+  .rounded-full {
+    border-radius: calc(infinity * 1px);
   }
   .rounded-md {
     border-radius: var(--radius-md);
@@ -1104,6 +1113,12 @@
         --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
         box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
       }
+    }
+  }
+  .focus\:outline-0 {
+    &:focus {
+      outline-style: var(--tw-outline-style);
+      outline-width: 0px;
     }
   }
   .active\:bg-brand6 {
