@@ -752,6 +752,9 @@
   .bg-\[url\(\/img\/cg\.png\)\] {
     background-image: url(/img/cg.png);
   }
+  .bg-\[url\(img\/bg\.png\)\] {
+    background-image: url(img/bg.png);
+  }
   .bg-cover {
     background-size: cover;
   }
@@ -2142,6 +2145,11 @@
   .sm\:opacity-100 {
     @media (width >= 40rem) {
       opacity: 100%;
+    }
+  }
+  .md\:bg-\[url\(img\/Rectangle-28\.png\)\] {
+    @media (width >= 48rem) {
+      background-image: url(img/Rectangle-28.png);
     }
   }
 }
