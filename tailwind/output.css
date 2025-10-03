@@ -1942,6 +1942,11 @@
       background-image: url(/img/Rectangle-55.png);
     }
   }
+  .sm\:bg-\[url\(img\/Rectangle-28\.png\)\] {
+    @media (width >= 40rem) {
+      background-image: url(img/Rectangle-28.png);
+    }
+  }
   .sm\:bg-top {
     @media (width >= 40rem) {
       background-position: top;
