@@ -743,6 +743,9 @@
   .bg-brand10 {
     background-color: var(--color-brand10);
   }
+  .bg-\[url\(\.\/img\/bg\.png\)\] {
+    background-image: url(./img/bg.png);
+  }
   .bg-\[url\(\/img\/Rectangle-55\.png\)\] {
     background-image: url(/img/Rectangle-55.png);
   }
@@ -2145,6 +2148,16 @@
   .sm\:opacity-100 {
     @media (width >= 40rem) {
       opacity: 100%;
+    }
+  }
+  .md\:bg-\[url\(\.\/img\/Rectangle-28\.png\)\] {
+    @media (width >= 48rem) {
+      background-image: url(./img/Rectangle-28.png);
+    }
+  }
+  .md\:bg-\[url\(\/img\/Rectangle-28\.png\)\] {
+    @media (width >= 48rem) {
+      background-image: url(/img/Rectangle-28.png);
     }
   }
   .md\:bg-\[url\(img\/Rectangle-28\.png\)\] {
